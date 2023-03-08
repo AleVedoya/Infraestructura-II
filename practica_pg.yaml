@@ -1,0 +1,8 @@
+#Ejemplo para levantar una instancia EC2
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: us-east-1
+      ImageId: ami-006dcf34c09e50022
+      InstanceType: t2.micro
